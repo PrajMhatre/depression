@@ -1,0 +1,126 @@
+/* home.css */
+
+/* Button styling */
+.buttons {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #05386b; /* Dark Sand */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.buttons:hover {
+    background-color: #08529c; /* Bright blue */
+}
+
+.buttons:active {
+    background-color: #08529c; /* Bright blue */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* Footer styling */
+.footers {
+    position: relative;
+    margin-top: 25px;
+    padding: 0.5rem;
+    bottom: 0;
+    width: 100%;
+    background-color: #05386b; /* Dark Sand */
+    color: #fff;
+}
+
+/* Main styling */
+.stylings {
+    width: 100vw;
+    background-color: #5cdb95; /* Blue Green */
+}
+
+/* User details form styling */
+.userdetail, .userdetails {
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    font-family: "Poppins", sans-serif;
+    background-color: #edf5e1; /* Dusty White */
+    left: 24%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    border-radius: 15px;
+}
+
+.userdetail TextField,
+.userdetail FormLabel,
+.userdetails TextField,
+.userdetails FormLabel {
+    float: left;
+}
+
+.userdetail Button,
+.userdetails Button {
+    background-color: #054f99; /* Dark Sand */
+    color: #edf5e1; /* Dusty White */
+    float: right;
+}
+
+.userdetail Button:hover,
+.userdetails Button:hover {
+    background-color: #05386b; /* Dark Sand */
+}
+
+.userdetail .rightBtn,
+.userdetails .rightBtn {
+    float: left;
+}
+
+/* Submit button animation */
+.userdetails .submitBtn {
+    background-color: red;
+    transition: 1s;
+}
+
+.userdetails .submitBtn:hover {
+    background-color: green;
+}
+
+/* Credit link styling */
+.credit-link {
+    float: right;
+    color: #666;
+}
+
+/* Result detail styling */
+.resultdetail {
+    position: absolute;
+    z-index: 2;
+    top: 15%;
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #edf5e1; /* Dusty White */
+    left: 24%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    justify-content: space-evenly;
+}
+
+.resultdetail Button {
+    background-color: #054f99; /* Dark Sand */
+    color: #edf5e1; /* Dusty White */
+    float: right;
+}
+
+.resultdetail Button:hover {
+    background-color: #05386b; /* Dark Sand */
+}

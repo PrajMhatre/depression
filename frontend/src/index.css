@@ -1,0 +1,12 @@
+/* index.css */
+
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color for the body */
+body {
+    background-color: #5cdb95; /* Blue Green */
+}

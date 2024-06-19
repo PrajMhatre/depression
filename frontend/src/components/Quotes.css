@@ -1,0 +1,117 @@
+/* quotes.css */
+
+/* Use Sora font for all elements */
+* {
+	font-family: "Sora", sans-serif;
+}
+
+/* Container for quotes */
+.Quotes-container {
+	height: 50%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	width: 100vw;
+	height: calc(100% - 20px);
+	align-items: center;
+	position: relative;
+	background: #f3f3d4; /* Dusty White */
+}
+
+/* Individual slides */
+.mySlides {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem;
+	height: 50vh;
+}
+
+/* Container for previous and next buttons */
+.arrows-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Previous & next buttons */
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -30px;
+	padding: 16px;
+	color: #888;
+	font-weight: bold;
+	font-size: 5vw;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	position: absolute;
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* Hover effect for previous & next buttons */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+
+/* Container for dots/bullets/indicators */
+.dot-container {
+	text-align: center;
+	padding: 20px;
+	background: seagreen; /* Example color, you can adjust */
+}
+
+/* Dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 8px;
+	background-color: #333;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot */
+.active {
+	background-color: #f3f3d4; /* Dusty White */
+	height: 17px;
+	width: 17px;
+}
+
+/* Hover effect for dots */
+.dot:hover {
+	background-color: #ccc;
+}
+
+/* Quote styling */
+q {
+	font-size: 3rem;
+	font-style: italic;
+	text-align: center;
+}
+
+/* Author styling */
+.author {
+	font-size: 5vw;
+	color: green; /* Example color, you can adjust */
+	text-align: right;
+}
+
+/* Media query for larger screens */
+@media only screen and (min-width: 1000px) {
+	.mySlides {
+		padding: 0 10rem; /* Adjust padding for larger screens */
+	}
+}
